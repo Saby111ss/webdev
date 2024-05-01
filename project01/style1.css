@@ -1,0 +1,98 @@
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+html,body{
+    height: 100%;
+    width: 100%;
+}
+#main{
+    height: 100%;
+    width: 100%;
+    background-color: white;
+}
+#nav{
+    height: 100px;
+    width: 100%;
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0px 40px;
+}
+#nav-part1{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#nav h3{
+    font-size: 16px;
+    font-weight: 800;
+    border: 2px solid black;
+    padding: 5px 10px;
+    border-radius: 50px;
+}
+#nav h1{
+    font-weight: 500;
+    font-size: 20px;
+    text-transform: uppercase;
+}
+#nav button{
+    padding: 7px 10px;
+    border-radius: 50px;
+    border: 1.5px solid black;
+    font-size: 17px;
+}
+#bttn2{
+    color: white;
+    background-color: orangered;
+    border: none;
+}
+#text{
+    font-size: 90px;
+    text-transform: uppercase;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    width: 100%;
+    text-align: center;
+}
+img{
+height: 50%;
+width: 300px;
+object-fit: cover;
+position: absolute;
+top: 50%;
+left: 50%;
+border-radius: 30px;
+transform: translate(-50%,-50%);
+}
+#img2{
+    transform: translate(-50%,-50%) rotate(-10deg);
+}
+#img3{
+    transform: translate(-50%,-50%) rotate(-20deg);
+}
+#img4{
+    transform: translate(-50%,-50%) rotate(-30deg);
+}
+#btmlft{
+    position: absolute;
+    bottom: 5%;
+    left: 3%;
+    font-size: 17px;
+}
+#footer{
+    position: absolute;
+    bottom: 5%;
+    right: 3%;
+}
+#btm-mid{
+    position: absolute;
+    bottom: 5%;
+    left: 50%;
+    text-align: center;
+}
